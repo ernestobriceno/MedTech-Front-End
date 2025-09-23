@@ -1,0 +1,49 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules
+
+# Build outputs
+dist
+dist-ssr
+out
+build
+
+# Local env files
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Test coverage
+coverage
+
+# Cache directories
+.cache
+.parcel-cache
+
+# Next.js / Nuxt / Other frameworks (por si lo usas en el futuro)
+.next
+.nuxt
+
+# Optional lockfiles (normalmente se suben, pero si no quieres, descomenta)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
